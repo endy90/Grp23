@@ -28,7 +28,7 @@ const Header = () => {
 
 
           <div className="flex items-center space-x-4">
-          <Link href="/whishlist">
+          <Link href="/events">
             <a  className="text-center text-gray-300 hover:text-red-500 transition relative">
               <div className="text-4xl">
               <ion-icon name="notifications-outline"></ion-icon>
@@ -41,7 +41,7 @@ const Header = () => {
             </a>
             </Link>
 
-          <Link href="/cart">
+          <Link href="/setting">
             <a className="text-center text-gray-300 hover:text-red-500 transition relative">
               <div className="text-4xl">
               <ion-icon name="settings-outline"></ion-icon>
@@ -55,7 +55,7 @@ const Header = () => {
           </Link>
 
 
-          <Link href="/account">
+          <Link href="/auth">
             <a className="text-center text-gray-300 hover:text-red-500 transition relative">
               <div className="text-4xl">
               <ion-icon name="person-circle-outline"></ion-icon>
